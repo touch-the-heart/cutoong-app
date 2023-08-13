@@ -1,0 +1,59 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "xml.format.splitAttributes": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tokenColorCustomizations": {
+    "comments": "#939597"
+  },
+  "editor.tabSize": 1,
+  "editor.fontLigatures": false,
+  "eslint.alwaysShowStatus": true,
+
+  "files.autoSaveDelay": 5000,
+  "redhat.telemetry.enabled": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.detectIndentation": false,
+  "editor.autoIndent": "brackets",
+  "cSpell.userWords": ["AFAFAF"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "files.autoSave": "onFocusChange"
+}
